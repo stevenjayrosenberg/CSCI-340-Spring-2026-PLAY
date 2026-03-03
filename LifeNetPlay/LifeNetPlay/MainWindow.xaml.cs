@@ -20,5 +20,10 @@ namespace LifeNetPlay
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            LabelLaunch.Content = "Rocket was launched";
+        }
     }
 }
